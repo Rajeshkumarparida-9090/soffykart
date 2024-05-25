@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .typography-header{
+    padding: 10px 0px;
+    background-color: #fff;
+}
+.typography-header .header{
+    color: #000;
+} */

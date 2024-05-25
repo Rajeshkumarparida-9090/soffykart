@@ -1,11 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './component/Header';
+import CustomRouter from './Ruoter/CustomRouter';
+import Footer from './component/Footer';
+import { Box } from '@mui/material';
+import "./css/footer.css";
+import "./css/custom.css"
+import CustomReactPlayer from './reuseComponent/CustomReactPlayer';
+// import Header from './component/Header';
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
+      {/* <CustomReactPlayer /> */}
+      <CustomRouter />
+      <Box className="fixed-footer">
+        <Footer />
+      </Box>
+      
     </>
   );
 }
